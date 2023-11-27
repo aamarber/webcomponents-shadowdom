@@ -10,6 +10,11 @@ class TextComponent extends HTMLElement{
         span.innerHTML = 'Initially defined text';
 
         this.shadow.appendChild(span);
+
+        let link = document.createElement('link');
+        link.setAttribute('rel', 'stylesheet');
+        link.setAttribute('href', '../index.css');
+        this.shadow.appendChild(link);
     }
 }
 
