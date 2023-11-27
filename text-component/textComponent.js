@@ -2,7 +2,7 @@ class TextComponent extends HTMLElement{
     constructor(){
         super();
 
-        this.shadow = this.attachShadow({mode: 'open'});
+        this.shadow = this.attachShadow({mode: 'closed'});
 
         let span = document.createElement('span');
 
