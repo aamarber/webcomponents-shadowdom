@@ -5,5 +5,5 @@
         return;
     }
     
-    wcTexts[0].innerHTML('MODIFIED TEXT!');
+    wcTexts[0].innerHTML = 'MODIFIED TEXT!';
 })();
